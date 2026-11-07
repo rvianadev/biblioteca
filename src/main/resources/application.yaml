@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: biblioteca
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/biblioteca?connectTimeout=3
+    username: biblioteca
+    password: biblioteca_dev
+
+    hikari:
+      connection-timeout: 5000
+      validation-timeout: 2000
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

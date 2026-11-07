@@ -1,0 +1,17 @@
+# Arquivos gerados pelo Maven
+target/
+
+# Configurações de IDE
+.idea/
+*.iml
+.vscode/
+
+# Arquivos temporários
+*.log
+.DS_Store
+Thumbs.db
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
